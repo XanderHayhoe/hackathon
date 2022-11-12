@@ -1,7 +1,9 @@
 import React from "react";
+import RegistrationForm from "../components/RegistrationForm";
+import { Wrapper } from "../components/RegistrationForm/RegistrationForm.styles";
 
 const Register = () => {
-  return <div>Register</div>;
+  return <RegistrationForm />;
 };
 
 export default Register;
