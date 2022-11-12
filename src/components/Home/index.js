@@ -1,12 +1,31 @@
 import React from "react";
-import { Wrapper } from "./Home.styles";
+
+import { Wrapper, HomeButton } from "./Home.styles";
 import Button from "react-bootstrap/Button";
+import Register from "../../pages/Register";
+import Main from "../../pages/Main";
+import Login from "../../pages/Login";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useNavigate,
+} from "react-router-dom";
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <Wrapper>
-      <Button variant='primary'> Register </Button>
-      <Button variant='Secondary'> Login </Button>
-      <Button variant='Secondary'> Guest </Button>
+      <Button variant='primary' onClick={() => navigate("/register")}>
+        Register
+      </Button>
+      <Button variant='Secondary' onClick={() => navigate("/login")}>
+        Login
+      </Button>
+
+      <Button variant='Guest' onClick={() => navigate("/main")}>
+        Guest
+      </Button>
     </Wrapper>
   );
 };
