@@ -2,9 +2,9 @@ import React from "react";
 
 import { Wrapper, HomeButton } from "./Home.styles";
 import Button from "react-bootstrap/Button";
-import Register from "../../pages/Register";
+import RegisterHeader from "../../pages/Register";
 import Main from "../../pages/Main";
-import Login from "../../pages/Login";
+import LoginHeader from "../../pages/Login";
 import {
   BrowserRouter as Router,
   Switch,

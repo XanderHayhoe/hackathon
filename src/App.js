@@ -1,13 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Home from "./components/Home";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-  Link,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./pages/Header";
 import Login from "./pages/Login";
 import Register from "./pages/Register";

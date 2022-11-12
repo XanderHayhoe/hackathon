@@ -34,9 +34,9 @@ h2 {
   
 }
 .btn-primary {
-    margin-top: 20px;
+    margin-top: 15px;
     display: block;
-    width: 100%;
+    width: 20%;
     font-weight: lighter;
 }
 h3 {
