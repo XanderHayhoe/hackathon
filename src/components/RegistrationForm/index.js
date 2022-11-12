@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import Button from "react-bootstrap/Button";
+import { Wrapper } from "./RegistrationForm.styles";
 /* function ValidateEmail(mail) {
   if (
     /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value)
@@ -14,7 +15,6 @@ const RegistrationForm = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
-  const dataArray = [];
   const validateEmail = (email) => {
     return String(email)
       .toLowerCase()
@@ -24,15 +24,19 @@ const RegistrationForm = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    const user = { username, password, email };
     if (validateEmail(email)) {
-      dataArray.append(email);
+      user.email = email;
     } else {
       throw new Error("invalid Email address");
     }
+    user.username = username;
+    user.password = password;
+    window.location.replace("/main");
     // check if username is in use at some point
   };
   return (
-    <div>
+    <Wrapper>
       <h2>Register a new account</h2>
       <form>
         <label>
@@ -46,16 +50,6 @@ const RegistrationForm = () => {
         </label>
         <br />
         <label>
-          <h3>Enter an Email: </h3>
-          <input
-            type='text'
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
           <h3>Enter a Password: </h3>
           <input
             type='text'
@@ -64,9 +58,21 @@ const RegistrationForm = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </label>
-        <button onClick={handleSubmit}> Register!</button>
+        <br />
+        <label>
+          <h3>Enter an Email: </h3>
+          <input
+            type='text'
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </label>
+        <Button variant='primary' onClick={handleSubmit}>
+          Register!
+        </Button>
       </form>
-    </div>
+    </Wrapper>
   );
 };
 
