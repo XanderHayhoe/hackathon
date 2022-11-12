@@ -1,0 +1,10 @@
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\bin\Debug\Login_DB.dacpac
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\bin\Debug\Login_DB.dll
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\bin\Debug\Login_DB.pdb
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\obj\Debug\Login_DB.sqlproj.AssemblyReference.cache
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\obj\Debug\Login_DB.dll
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\obj\Debug\Login_DB.pdb
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\obj\Debug\Model.xml
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\obj\Debug\refactor.xml
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\obj\Debug\postdeploy.sql
+C:\Users\Ben\Desktop\Hackathon - Nov 12, 2022\hackathon\Database 1\Login_DB\obj\Debug\predeploy.sql
