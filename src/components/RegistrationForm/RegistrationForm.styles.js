@@ -21,10 +21,16 @@ h2 {
   top:25%;
   text-align: center;
   width:100%;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
 }
 .btn-primary {
     margin-top: 20px;
     display: block;
     width: 100%;
+}
+h3 {
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
 }
 `;
