@@ -4,7 +4,7 @@ import { Wrapper } from "./Login.styles";
 const LoginForm = () => {
   return (
     <Wrapper>
-      <h2>Register a new account</h2>
+      <h2> Please enter your credential</h2>
       <form>
         <label>
           <h3>Enter a Username: </h3>
@@ -17,7 +17,7 @@ const LoginForm = () => {
         </label>
         <br />
       </form>
-      <Button variant='primary'>Register!</Button>
+      <Button variant='primary'>Login!</Button>
     </Wrapper>
   );
 };
