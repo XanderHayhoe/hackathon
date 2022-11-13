@@ -26,7 +26,7 @@ form {
 
 h2 {
   position:fixed;
-  top:25%;
+  top:15%;
   text-align: center;
   width:100%;
   font-size: 2.5rem;
